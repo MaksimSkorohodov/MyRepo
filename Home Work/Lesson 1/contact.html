@@ -7,36 +7,39 @@
 </head>
 <body>
 <p>My shop</p>
-<ul>
+<header>
+    <a href="index.html"><img class="logo" src="../images/logo.png" width="100" alt="Mercedes-Benz">Mercedes-Benz</a>
+<ul class="menu">
     <li><a class="link" href="index.html">Главная</a></li>
     <li><a class="link" href="catalog.html">Каталог</a></li>
     <li><a class="link" href="contact.html">Контакты</a></li>
 </ul>
+</header>
 <hr>
 <h1 class="header">Контакты</h1>
 <form action="#">
 <fieldset>
     <legend>Напешите нам</legend>
-    <input class="imput" placeholder="Введите ваше имя"><br>
-    <input class="imput" placeholder="Введите ваш электронный адрес" type="email"><br>
-    <input class="imput" placeholder="Тема сообщения"><br>
+    <div><input placeholder="Ведите ваше имя" required type="text"></div>
+    <div><input class="email" placeholder="Введите ваш эл.адрес" type="email"></div>
+    <div><input placeholder="Тема сообщения" required type="text"></div>
     <p>Суть вашего письма:</p>
     <textarea cols="20" rows="2"></textarea>
     <input class="imput" type="submit">
 </fieldset>
 </form>
-<h2>Адрес</h2><br>
-<b>Телефон:</b>+375254569823<br>
-<b>Адрес:</b>г. Минск, ул. Тимирязева, 70<br>
-<b>Email:</b>info@mercedes-benz.by<br>
-<br>
+<h2 class="adres">Адрес</h2>
+<div><b>Телефон:</b>+375254569823</div>
+<div><b>Адрес:</b>г. Минск, ул. Тимирязева, 70</div>
+<div><b>Email:</b>info@mercedes-benz.by</div>
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.462145303036!2d27.510233116121913!3d53.92353298010396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc56ec636c251%3A0x40448ef5212a99fa!2z0YPQuy4g0KLQuNC80LjRgNGP0LfQtdCy0LAgNzAsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1678345765077!5m2!1sru!2sby"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
-<br>
-<br>
-<br>
+
 <hr>
-<p>&copy "Все права защищены"</p>
+<footer>
+<div class="copyright">&copy; "Все права защищены"</div>
+</footer>
 </body>
 </html>

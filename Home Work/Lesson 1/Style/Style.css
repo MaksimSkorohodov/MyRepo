@@ -25,21 +25,45 @@ html{
     font-style: italic;
     line-height: 16px;
 }
-.ul {
-    padding-left: 2rem;
+.Characteristics {
+    font: 17px Colibri;
+    color: black;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+.Characteristics td {
+    border: 1px solid black;
+    padding: 5px;
+}
+.Characteristics td:first-child {
+    font-weight: bold;
+}
+.text-1:first-letter {
+    font: 25px Italic;
+    color: black;
+    font-weight: 1000;}
+.text-2:first-letter {
+    font: 25px Italic;
+    color: black;
+    font-weight: 1000;}
+.email:focus {
+    background-color: black;
+    color: white;
+}
+footer {
+    background:honeydew;
+    height: 70px;
+    font-weight: bold;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.menu a:hover {
+    color: wheat;
+}
+.menu li {
+    font: 20px italic;
     list-style-type: none;
-}
-.ul_li{
-    font-style: oblique;
- padding-left: 2rem;
-    background-image: url("https://zigzag-eva.ru/upload/iblock/59b/d05gm66pnmuo03mumzmnad6oq0a30dk0.png");
-    background-position: 0 0;
-    background-size: 1.6rem 1.6rem;
-    background-repeat: no-repeat;
-}
-.imput{
-    font-size:20px;
-    font-weight:bold;
-    color: #484343 ;
-    font-style: oblique;
 }
